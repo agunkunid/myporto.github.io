@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('font/Poppins-Regular.ttf');
+}
+#navbarNav {
+  font-family: 'poppins-regular';
+}
+
+#Jumbotron {
+  background-image: url('img/vektor\ atas.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 90rem;
+  height: 700px;
+}
+.home {
+  padding: 11rem;
+  float: right;
+}
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('font/Poppins-Bold.ttf');
+}
+#title2 {
+  font-family: 'poppins-bold';
+  font-size: xx-large;
+}
+@font-face {
+  font-family: 'poppins-extrabold';
+  src: url('font/Poppins-ExtraBold.ttf');
+}
+#title1 {
+  font-family: 'poppins-extrabold';
+}
+.strokeme {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff; /* Warna teks */
+  text-shadow: -2px -2px 0 #7000fe, 2px -2px 0 #7000fe, -2px 2px 0 #7000fe, 2px 2px 0 #7000fe;
+}
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('font/Poppins-Regular.ttf');
+}
+@media (max-width: 360px) {
+  p {
+    font-size: 1%;
+  }
+}
+#titletext {
+  font-family: 'poppins-regular';
+  color: #7000fe;
+  font-size: medium;
+  display: flex;
+}
+#Portofolio {
+  font-family: 'poppins-bold';
+  background-image: url(img/vecktor\ background\ hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+}
+
+@font-face {
+  font-family: 'poppins-medium';
+  src: url('font/Poppins-Medium.ttf');
+}
+/* ini js animasi slider card */
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'poppins-medium';
+  width: 200px; /* Sesuaikan dengan lebar card */
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  position: center;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+.slides img {
+  opacity: 0.7; /* Atur transparansi gambar */
+}
+/* ini akhir js animasi slider */
+#About {
+  background-image: url('img/vektor\ background\ bawah.png');
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  background-size: cover;
+  height: 700px;
+  background-position: top;
+  padding-top: 1rem;
+}
+.textabout {
+  padding: 11rem;
+  padding-right: 10rem;
+  float: right;
+  position: relative;
+}
+#Location {
+  background-color: #fff;
+  font-family: 'poppins-medium';
+  padding-bottom: 5rem;
+  padding-top: 13rem;
+  size: 250px 150py;
+}
